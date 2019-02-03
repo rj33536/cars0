@@ -52,48 +52,77 @@
     </div>
 </nav>
 <!--Top Carousel-->
-    <section>
-    <div class="carousel slide" data-ride="carousel" data-interval="2000" id="featured-carousel">
+<section>
+  <div class="container">
+   <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+     <div class="carousel slide" data-ride="carousel" data-interval="2000" id="featured-carousel">
+        <!--indicators dot row-->
         <ol class="carousel-indicators">
             <li data-target="#featured-carousel" data-slide-to="0" class="active"></li>
             <li data-target="#featured-carousel" data-slide-to="1"></li>
             <li data-target="#featured-carousel" data-slide-to="2"></li>
+            <li data-target="#featured-carousel" data-slide-to="3"></li>
         </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active" id="carousel-item-1">
-                <img src="demos/car/images/hero-slider/Corolla-Black.png" class="img-fluid w-100">
-                <div class="carousel-overlay dark" style="left: 10% !important;top: 20%;">
-                    <h2 class="mb-3">Corolla</h2>
-                    <p>Designed to Thrill</p>
+        <!--wrapper for slides-->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active" id="carousel-item-1">
+                <img src="images/pic3.png" class="img-fluid w-100" alt="camry">
+                <div class="carousel-overlay dark" style="left: 20% !important;top: 20%;">
+                    <h2 class="mb-3">Toyota Camry 2019</h2>
+                    
                     <a href="car-single.html"
                        class="mt-3 button button-rounded button-border button-white button-light nott">View
                         Details</a>
                 </div>
             </div>
             <div class="carousel-item" id="carousel-item-2">
-                <img src="demos/car/images/hero-slider/land-cruiser.jpg" class="img-fluid w-100">
+                <img src="images/pic2.png" class="img-fluid w-100" alt="camry">
                 <div class="carousel-overlay dark" style="left: 20%">
-                    <h2 class="mb-3">Land Cruiser 2019</h2>
-                    <p>New and Powerful SUV</p>
+                    <h2 class="mb-3">Toyota Camry 2019</h2>
+                    
                     <a href="car-single.html"
                        class="mt-3 button button-rounded button-border button-white button-light nott">View
                         Details</a>
                 </div>
             </div>
             <div class="carousel-item" id="carousel-item-3">
-                <img src="demos/car/images/hero-slider/camry.jpg" class="img-fluid w-100">
-                <div class="carousel-overlay dark">
+                <img src="images/pic1.png" class="img-fluid w-100" alt="camry">
+                <div class="carousel-overlay dark" style="left:20%">
                     <h2 class="mb-5">Toyota Camry 2019</h2>
 
-                    <a href="car-single.html"
+                                <a href="car-single.html"
                        class="mt-5 button button-rounded button-border button-white button-light nott">View
                         Details</a>
                 </div>
             </div>
+               <div class="carousel-item" id="carousel-item-4">
+                <img src="images/pic4.png" class="img-fluid w-100" alt="camry">
+                <div class="carousel-overlay dark" style="left:20%">
+                    <h2 class="mb-5">Toyota Camry 2019</h2>
+                    
+                    <a href="car-single.html"
+                       class="mt-5 button button-rounded button-border button-white button-light nott">View
+                        Details</a>
+                </div>
+               </div>
         </div>
-    </div>
-</section>
 
+        <!--controls or next and prev button-->
+
+        <a class="left carousel-control" href="#featured-carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#featured-carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+     </div>
+      </div>
+       </div>
+</section>
 <!--Footer-->
     <footer id="footer" class="dark noborder" style="background-color: #080808;">
     <div class="container-fluid ">
